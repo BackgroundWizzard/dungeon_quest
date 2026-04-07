@@ -3,9 +3,11 @@ import random
 def main():
     def setup_player(): 
 name = input("Greetings adventurer. What is your name? ")
-player_class = input(f"Ahh, a fine name. Well {name}, it's dangerous to go alone. So tell me your class... Be you warrior, mage, archer, or rogue? ").lower()
-
-       # """
+player_class = input(f"Ahh, a fine name. Well {name}, it's dangerous to go alone. So tell me your class... Be you warrior, mage, archer, or rogue? ").lower():
+    if player_class == 'warrior':
+    print("Heh, a classic choice. Steel will be your advocate. Take this Iron Sword!"):
+        and player_inventory = {"weapon": "sword", "bag": "Common bag of holding", "helmet": "broken visor of fealty", "trousers": "threadborn pantaloons"}
+        """
         Prompts the user to create their player profile.
 
         Returns:
